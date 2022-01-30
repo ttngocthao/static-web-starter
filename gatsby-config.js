@@ -1,15 +1,16 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "Keen Dream Events",
+    title: "Company name",
   },
   plugins: [
     "gatsby-plugin-styled-components",
     "gatsby-plugin-react-helmet",
+    `gatsby-theme-material-ui`,
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "Keen Dream Events",
+        name: "Company name",
         short_name: "KDream Events",
         start_url: "/",
         background_color: "#222222",
